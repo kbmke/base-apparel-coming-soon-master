@@ -1,5 +1,12 @@
 // NOTE IMPORTS
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+//  NOTE RESETS
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     // ### Primary
     --desaturatedRed: hsl(0, 36%, 70%);
@@ -14,7 +21,7 @@
     font-size: 16px;
 }
 
-// NOTE RESETS
+// NOTE FORMATTING FOR DEVICES 365PX TO DEVICES 767PX WIDE
 @media only screen and (min-width: 365px) and (max-width: 767px) {}
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {}

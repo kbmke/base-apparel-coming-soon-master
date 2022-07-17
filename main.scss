@@ -1,0 +1,20 @@
+// NOTE IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+:root {
+    // ### Primary
+    --desaturatedRed: hsl(0, 36%, 70%);
+    --softRed: hsl(0, 93%, 68%);
+    // ### Neutral
+    --darkGrayishRed: hsl(0, 6%, 24%);
+    // ### Gradients
+    --linear1: 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+    --linear2: 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    // fonts
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+// NOTE RESETS
+@media only screen and (min-width: 365px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {}

@@ -9,12 +9,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <!-- main stylesheet -->
     <link rel="stylesheet" href="main.css">
 
 
 </head>
 
-<body>
+<div>
     <div class="nav">
         <div class="logo">
             <img src="images/logo.svg" alt="logo">
@@ -22,32 +23,44 @@
     </div>
     <div class="main-container">
 
-        <div class="hero">
-            <img hidden class="hero" src="images/hero-mobile.jpg" alt="image of a model with an apricot button up shirt and charm bracelet">
-            <div class="header">
-                <img class="hero" src="images/hero-desktop.jpg" alt="image of a model with an apricot button up shirt and charm bracelet">
-                <h1> We're <br> <span>coming </span> <br> <span>soon</span> </h1>
-            </div>
-            <div class="para">
-                <p> Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-            </div>
-            <form action="input">
-                <input type="email" name="email" title="email" id="email">
-                <label for="email"></label>
-            </form>
+        <div class="hero rel">
 
+            <img src="images/hero-mobile.jpg" alt="">
+        </div>
+    </div>
+    <div class="info rel">
+        <div class="headers rel">
+            <div class="head1 rel">
+                We're
+            </div>
+            <div class="head2 rel">
+                coming
+            </div>
+            <div class="head3 rel"> soon</div>
         </div>
 
-
+        <div class="para">
+            <p> Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
     </div>
+    <div class="email rel">
+        <form action="input">
+            <input type="email" name="email" title="email" id="email" placeholder="Email address"> <label for="email"></label>
+            <div class="submit">
+                <img src="images/icon-arrow.svg" alt="">
+
+            </div>
+        </form>
+    </div>
+</div>
 
 
-    <footer>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-            <a href="#">KB</a>.
-        </p>
-    </footer>
+<footer>
+    <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a href="#">KB</a>.
+    </p>
+</footer>
 </body>
 
 </html>

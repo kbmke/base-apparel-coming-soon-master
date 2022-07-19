@@ -103,11 +103,66 @@
         height: 100vh;
     }
     // ID FORMATTING
+    #email {
+        // text-align: center;
+        border-radius: 30px;
+        border: 1px solid var(--desaturatedRed);
+        padding: 10px;
+        width: 300px;
+    }
+     ::placeholder {
+        color: var(--desaturatedRed);
+        font-weight: 300;
+        font-size: 14px;
+        padding: 10px;
+    }
+    // #submit {
+    //     background-color: var(--linear2);
+    // }
     // CLASS FORMATTING
-    .hero {
-        background-image: url('images/hero-desktop.jpg');
+    .logo img {
+        width: 100px;
+        margin: 20px 25px;
+    }
+    .hero img {
+        background-image: url('images/hero-mobile.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
+    }
+    .headers {
+        margin: 20px;
+        text-transform: uppercase;
+        font-size: 40px;
+        letter-spacing: 8px;
+        font-weight: 600;
+        // line-height: 40px;
+    }
+    .head1 {
+        color: var(--desaturatedRed);
+        font-weight: 300;
+    }
+    .para {
+        color: var(--desaturatedRed);
+        margin: 0 30px;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .email {
+        margin: 30px;
+    }
+    input[type=placeholder] {
+        color: var(--desaturatedRed);
+    }
+    .submit img {
+        background-color: var(--linear2);
+        border: 1px solid var(--desaturatedRed);
+    }
+    .attribution {
+        text-align: center;
     }
     // UTILITY CLASSES
+    .rel {
+        position: relative;
+    }
 }
